@@ -14,7 +14,7 @@
     <main>
         <form method = 'post' action="currency.php">
         <label for="amount">Amount:</label>
-        <input type="number" name="amount" min='0'> <br> <br>
+        <input type="number" step="any" name="amount" min='0'> <br> <br>
         <label for="from">From:</label>
         <select name="from" id="from">
             <option value="euro">Euro</option>
